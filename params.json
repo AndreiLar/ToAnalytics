@@ -1,6 +1,6 @@
 {
   "name": "Toanalytics",
   "tagline": "Sends nginx combined log hits to google analytics. Optimised for an eBay tracking pixel.",
-  "body": "# ToAnalytics\r\nSends nginx combined log hits to google analytics. Optimised for an eBay tracking pixel.\r\n\r\n##Dependencies\r\nrequests  \r\ntime  \r\nrandom  \r\ndatetime  \r\nGEOIP and GEOLITE 2  \r\nalso Python... duh  \r\n\r\n##To make it work\r\nYou'll need to change the image name and the log file name. Place in log file directory, make sure your nginx log format isnt different from the standard one and add some kind of identifier to the end of your pixel embed. \r\n\r\nAlso, get your own Google Analytics Account ID and obviously run this daily with cron. Clear the log file daily too... duh\r\n\r\nEnjoy your google analytics with no javascript.\r\n",
+  "body": "##Dependencies\r\nrequests  \r\ntime  \r\nrandom  \r\ndatetime  \r\nGEOIP and GEOLITE 2  \r\nalso Python... duh  \r\n\r\n##To make it work\r\nYou'll need to change the image name and the log file name. Place in log file directory, make sure your nginx log format isnt different from the standard one and add some kind of identifier to the end of your pixel embed. \r\n\r\nAlso, get your own Google Analytics Account ID and obviously run this daily with cron. Clear the log file daily too... duh\r\n\r\nEnjoy your google analytics with no javascript.\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
